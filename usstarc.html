@@ -1,0 +1,338 @@
+<html>
+    <head>
+        <style>
+            .header{
+                position:relative;
+                margin-left:60px;
+            }
+            .title{
+                position:absolute;
+
+                top:20%;
+                left:45%;
+                right:40%;
+                background-color:red;
+                width:50px;
+                font-size:40px;
+                color:black;
+                opacity:0;
+                animation-name: pappu;
+                animation-duration:2s;
+                animation-fill-mode: forwards;
+            
+
+            }
+            @keyframes  pappu {
+                100%{
+                    opacity:1;
+                    transform:translateY(30px);
+                    transition-duration:4s;
+                    transition-timing-function:ease;
+
+                }
+                
+            }
+            .cap{
+                position: absolute;
+                top:50%;
+                left:45%;
+                right:40%;
+        
+               width:500px;
+                color:white;
+                background-color: cornflowerblue;
+                opacity:0;
+                animation-name: pappu;
+                animation-duration:2s;
+                animation-fill-mode: forwards;
+                animation-delay:1s;
+
+
+            }
+            .cap2{
+                position: absolute;
+                top:0%;
+                left:3%;
+               
+                color:white;
+                background-color:black;
+                opacity:0;
+                animation-name: pappu;
+                animation-duration:2s;
+                animation-fill-mode: forwards;
+                animation-delay:2s;
+               
+            }
+            .projects{
+                display:flex;
+                justify-content: space-around;
+                transition-duration:1s;
+
+            
+            }
+            .app:hover{
+                display:flex;
+                justify-content: space-around;
+                transform:scale(1.1);
+                transition-duration:2s;
+                filter: grayscale(100);
+                
+
+            
+            }
+        .app{
+            position:relative;
+            transition-duration:1s;
+        }
+        .txt1 {
+            position:absolute;
+            top:-10%;
+            color:white;
+            background-color: black;
+        }
+        .container2{
+                display:flex;
+                justify-content: space-around;
+                transition-duration:1s;
+
+            
+            }
+        .archit{
+            display: flex;
+            justify-content:space-around;
+        }
+        .button{
+            background-color: beige;
+            width: 100px;
+            height:30px;
+
+            font-size: 15;
+            border-radius:30px;
+            border:2px soid black;
+        }
+        .contact{
+            border: 2px solid black;
+            width:400;
+            height: auto;
+            background-color: whitesmoke;
+            border-radius:6% 6%;
+        }
+        .button2{
+            background-color: black;
+            color:white;
+            width:100px;
+            height:30;
+            padding-top:10px;
+            border-radius:6% 6%;
+        }
+        footer{
+            background-color:black;
+            width: auto;
+            height: 200px;
+        
+        }
+        .usst{
+            display:flexbox;
+            position: sticky;
+
+        }
+        .usst ul{
+            display: flex;
+            justify-content: space-around;
+            background-color: whitesmoke;
+            width: auto;
+            height: 50px;
+            position: sticky;
+            top:0;
+            list-style:none;
+    
+            
+        }
+        .usst ul li{
+            margin-top:10px;
+     
+            color:black;
+            list-style:none;
+            text-decoration: none;
+          
+            width:100;
+            height:30;
+            text-align: center;
+            padding-top: 10;
+            border-radius: 30% 30%;
+        transition-duration: 1s;
+
+            
+        }
+        .usst ul li:hover{
+     
+     color:black;
+     list-style:none;
+     text-decoration: none;
+     background-color: black;
+     color:orangered;
+     width:100;
+     height:30;
+     text-align: center;
+     padding-top: 10;
+     border-radius: 10% 30%;
+ transition-duration: 1s;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        
+
+        </style>
+
+    </head>
+    <body>
+        <div class="usst">
+            <ul>
+                <li style="background-color: whitesmoke ;width:200;">U S S T  A R C H I T E C T S</li>
+                <a href="#p"><li>projects</li></a>
+                <a href="#Ab"><li>contact</li></a>
+                <a href="#aa"><li>address</li></a>
+            </ul>
+            
+        </div>
+        
+
+        <div class="main">
+           <div class="header">
+            <img  src="https://media.istockphoto.com/id/1214351345/photo/looking-directly-up-at-the-skyline-of-the-financial-district-in-central-london-stock-image.jpg?s=612x612&w=0&k=20&c=yw9jeBt2HTFTY3Qa3cRCaQ62v3YdxrnhBgbvfX5xK9s=" style="width:1300;height:500px;margin-left:-70px;">
+            <h2 class="title">us<mark style="background-color:white;">sai</mark> th<mark style="background-color:white;">arun</mark></h2>
+            <pre class="cap">"Designing Dreams, Building Realities: 
+                Your Architectural Journey Begins Here"</pre>
+            <pre class="cap2">Unveiling the blueprint of brilliance! Explore our architectural wonders online today."
+
+     "Elevate your inspiration with our stunning architectural designs. Visit our website now!"
+                
+                </pre></div>
+        </div>
+        <br></br>
+        <br/>
+        <center><h2>projects</h2></center>
+        <br/>
+        <br/>
+        <div class="projects" id="p">
+            <div class="app">
+                <img src="https://res.cloudinary.com/sentral/image/upload/w_1000,h_1000,q_auto:eco,c_fill/f_auto/v1684782440/miro_hero_building_exterior_2000x1125.jpg" width="202">
+                <h2 class="txt1">Apartment</h2>
+            </div>
+            <div class="app">
+                <img src="https://cdn.britannica.com/73/114973-050-2DC46083/Midtown-Manhattan-Empire-State-Building-New-York.jpg" width="180">
+                <h2 class="txt1">skyscraper</h2>
+            </div>
+            <div class="app">
+                <img src="https://cdn.apartmenttherapy.info/image/upload/v1613683986/at/real-estate/semi-detached-house.jpg" width="250" height="205">
+                <h2 class="txt1">Detached</h2>
+            </div>
+            <div class="app">
+                <img src="https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjE0NDAsImhlaWdodCI6OTYwfX0sIm91dHB1dEZvcm1hdCI6ImpwZWciLCJrZXkiOiI3LzUvNzUzYjdjNmE1Yzg1YjRjZmJmNTI1MzM4NWM2ZjQ5OWYuanBnIn0=?signature=ca993ccf3379b16e40fcd3e2034ef1214890ab05ec8e1dc58a57d24ecb23a5f2" width="300">
+                <h2 class="txt1">Semi Detached</h2>
+            </div>
+            
+
+
+        </div>
+        <br/>
+        <div class="container2">
+            <div class="app">
+                <img src="https://i.pinimg.com/originals/14/db/99/14db991b6217bfeafabb1300161fb12c.jpg" width="202">
+                <h2 class="txt1">Manor</h2>
+            </div>
+            <div class="app">
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/stock%2Fshutterstock_302680817ed" width="200">
+                <h2 class="txt1">Split level</h2>
+            </div>
+            <div class="app">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/historic-colonial-style-house-news-photo-883515418-1539018922.jpg" width="300">
+                <h2 class="txt1">Colonial</h2>
+            </div>
+            <div class="app">
+                <img src="https://www.southernliving.com/thmb/R50HDhYdsNA9mQKzE9zFenYcA4M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2270901_cainc0259_1-2000-36b6699219454ee298de1d4565f1ab7d.jpg" width="300">
+                <h2 class="txt1">Cottage</h2>
+            </div>
+            
+        </div>
+        <br/>
+        <br/>
+        <h2>About</h2>
+        <p class="about" id="Ab">Welcome to USST Architect Firm's , where architectural dreams come to life! Our architects are the epitome of creativity, innovation, and expertise. With a passion for transforming ideas into awe-inspiring structures, they bring unparalleled vision and skill to every project they undertake.
+
+            At uss architect firm, we pride ourselves on pushing the boundaries of design while ensuring functionality and sustainability. Our team's diverse backgrounds and experiences converge to create spaces that inspire, captivate, and endure.</p>
+            <br/>
+            <br/>
+            <div class="archit">
+                <div class="a1">
+                <img src="https://www.w3schools.com/w3images/team2.jpg" width="250px">
+                <h2>John Doe</h2>
+                    <h3>CEO & Founder</h3>
+                    
+                    
+<center><p class="button">contact</p></center>
+                    
+                    
+        
+
+                </div>
+                <div class="a1">
+                <img src="https://www.w3schools.com/w3images/team1.jpg" width="250px">
+                <h2>Jane Doe</h2>
+                    <h3>Architect</h3>
+                    
+<center><p class="button">contact</p></center>
+                    
+                    
+        
+
+                </div>
+                <div class="a1">
+                    <img src="https://www.w3schools.com/w3images/team3.jpg" width="250px">
+                    <h2>Mike Ross</h2>
+                        <h3>Architect</h3>
+                        
+    <center><p class="button">contact</p></center>
+                        
+                        
+            
+    
+                    </div>
+                    <div class="a1">
+                        <img src="https://www.w3schools.com/w3images/team4.jpg" width="250px">
+                        <h2>Dan Star</h2>
+                            <h3>Architect</h3>
+        <center><p class="button">contact</p></center>
+                            
+                            
+                
+        
+                        </div>
+
+            </div>
+            <br/>
+            <br/>
+           <center> <div class="contact">
+                <h2>contact</h2>
+                <p>Lets get in touch and talk about your next project</p>
+                <input type="text" placeholder="Name">
+                <br/>
+                <br/>
+                <input type="Email" placeholder="Email">
+                <br/><br/>
+                <input type="text" placeholder="Subject">
+                <br/><br/>
+                <input type="text"  placeholder="Comment">
+                <h4 class="button2">Send Message</h4>
+            </div></center>
+            <br/>
+            <br/>
+            <center><iframe id="aa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d594712.4889422782!2d-102.76194468936396!3d41.66759757377307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938dc8b50cfced%3A0xa127900c0ff30ac4!2sNebraska%2C%20USA!5e0!3m2!1sen!2sin!4v1709205615284!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+            <br/>
+          <center>  <footer>
+                <h3><mark style="background-color:red;">Powered</mark> <mark style="background-color:white">By</mark></h2> <h3><mark style="background-color:white;">u.sesha sai</mark> <mark style="background-color:red;">tharun</mark></h3>
+            </footer></center>
+
+    </body>
+</html>
